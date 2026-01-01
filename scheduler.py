@@ -255,7 +255,7 @@ class SheetScheduler:
                     url = row[1].strip() if len(row) > 1 and row[1] else ""
                     last_chapter_str = row[3].strip() if len(row) > 3 and row[3] else "0"
                     title = row[0].strip() if len(row) > 0 and row[0] else "Unknown"
-                    skip_chapters_str = row[11].strip() if len(row) > 11 and row[11] else "0"
+                    skip_chapters_str = row[12].strip() if len(row) > 12 and row[12] else "0"
 
                     try:
                         last_chapter = int(last_chapter_str)
