@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 SHEET_ID = "1CKbgNt7yMMm3H_s6n3wxKVrDcedyEdZHDjKFUGFLlLU"
 PROGRESS_SHEET = os.environ.get('PROGRESS_SHEET_NAME', 'PROGRESS')
 CONFIG_SHEET = os.environ.get('CONFIG_SHEET_NAME', 'Config')
-SCHEDULE_TIME = time(15, 5)  # 3:05 PM
+SCHEDULE_TIME = time(17, 5)  # 3:05 PM
 TIMEZONE = pytz.timezone('Etc/GMT-2')  # GMT+2
 
 
